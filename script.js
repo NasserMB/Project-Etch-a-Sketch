@@ -20,3 +20,9 @@ for (let i = 0; i < containerSize; i++) {
 
 // Append container to the page
 document.body.appendChild(container);
+
+// ** WORKING ON IT **
+let cells = document.getElementsByClassName('row');
+container.addEventListener('mousedown', () => {
+    cells.classList.add('paint');
+});
